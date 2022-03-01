@@ -1,7 +1,9 @@
-// this is a comment
+const longword = 'Supercalifragilisticexpialidocious';
+const anyNum = 13;
+const bigNum = BigInt(8766565656565);
 
 
-/* Hello this is the way to write multi line comments */
-console.log("Hareg");
-console.log("Doro Wet")
-console.log("hi")
+console.log (longword.length);
+console.log (`${bigNum} is a ${typeof bigNum}`);
+console.log (`${anyNum} is a ${typeof anyNum}`);
+
